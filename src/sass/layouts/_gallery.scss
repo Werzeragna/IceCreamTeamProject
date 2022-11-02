@@ -1,0 +1,62 @@
+.wrap-two-section {
+  display: flex;
+  flex-direction: column;
+  background-image: url(../images/reviewsfoto/backgroundreviews.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  @media screen and (min-device-pixel-ratio: 2),
+    screen and(min-resolution:192dpi),
+    screen and(min-resolution:2dppx) {
+    background-image: url(../images/reviewsfoto/backgroundreviews-retina.jpg);
+  }
+}
+
+.gallery {
+  padding: 0 20px;
+  margin-top: -24px;
+
+  @media screen and(min-width: 768px) {
+    margin-top: -164px;
+  }
+  @media screen and(min-width: 1200px) {
+    margin-top: -94px;
+  }
+
+  &__thumb {
+    margin: 0 auto;
+    height: 130px;
+    border-radius: 7px;
+    overflow: hidden;
+    @media screen and(min-width: 480px) {
+      width: 440px;
+    }
+
+    @media screen and (min-width: 768px) {
+      width: 704px;
+      height: 327px;
+      border-radius: 18px;
+    }
+
+    @media screen and (min-width: 1200px) {
+      width: 1013px;
+      height: 422px;
+      border-radius: 24px;
+    }
+  }
+
+  &__img {
+    display: block;
+    margin: 0;
+    padding: 0;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+  &__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+}

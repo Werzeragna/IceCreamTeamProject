@@ -1,0 +1,93 @@
+<div class="backdrop is-hidden" data-products-modal>
+  <div class="modal ingridients-modal">
+    <p class="ingridients-modal__title modal__title">Chocolate icecream</p>
+    <div class="ingridients-modal__picture"></div>
+
+    <ul class="ingridients-modal__infolist">
+      <li class="ingridients-modal__point">
+        <span class="ingridients-modal__text">kcal</span>
+        <span class="ingridients-modal__circle">320</span>
+      </li>
+      <li class="ingridients-modal__point">
+        <span class="ingridients-modal__text">Proteins</span>
+        <span class="ingridients-modal__circle">4g</span>
+      </li>
+      <li class="ingridients-modal__point">
+        <span class="ingridients-modal__text">Fats</span>
+        <span class="ingridients-modal__circle">8,2g</span>
+      </li>
+      <li class="ingridients-modal__point">
+        <span class="ingridients-modal__text">Carbs</span>
+        <span class="ingridients-modal__circle">40,4g</span>
+      </li>
+    </ul>
+    <p class="ingridients-modal__subtitle">Ingridients</p>
+    <ul class="ingridients-modal__list">
+      <li class="ingridients-modal__item">
+        <p class="ingridients-modal__composition">Milk</p>
+        <p class="ingridients-modal__composition">100ml</p>
+      </li>
+      <li class="ingridients-modal__item">
+        <p class="ingridients-modal__composition">Belgian chocolate</p>
+        <p class="ingridients-modal__composition">20g</p>
+      </li>
+      <li class="ingridients-modal__item">
+        <p class="ingridients-modal__composition">Cream</p>
+        <p class="ingridients-modal__composition">150ml</p>
+      </li>
+      <li class="ingridients-modal__item">
+        <p class="ingridients-modal__composition">Cocoa powder</p>
+        <p class="ingridients-modal__composition">30g</p>
+      </li>
+      <li class="ingridients-modal__item">
+        <p class="ingridients-modal__composition">Sugar</p>
+        <p class="ingridients-modal__composition">40g</p>
+      </li>
+      <li class="ingridients-modal__item">
+        <p class="ingridients-modal__composition">Vanilla sugar</p>
+        <p class="ingridients-modal__composition">10g</p>
+      </li>
+    </ul>
+
+    <form class="feedback">
+      <label class="feedback__item ingridients-form__item">
+        <input
+          type="text"
+          name="feedback-username"
+          class="feedback__input"
+          placeholder="Name"
+        />
+      </label>
+      <label class="feedback__item ingridients-form__item">
+        <input
+          class="feedback__input"
+          type="tel"
+          name="feedback-tel"
+          placeholder="Phone"
+        />
+      </label>
+      <label class="feedback__item ingridients-form__item">
+        <textarea
+          class="feedback__textarea"
+          name="comments"
+          rows="10"
+          placeholder="Comment"
+        ></textarea>
+      </label>
+    </form>
+    <button
+      class="ingridients-modal__button button modal__button"
+      type="submit"
+    >
+      Submit
+    </button>
+    <button class="modal__close-button" type="button" data-products-modal-close>
+      <svg width="16" height="16">
+        <use
+          class="modal__close-icon"
+          href="/src/images/icons.svg#icon-close"
+        ></use>
+      </svg>
+    </button>
+  </div>
+</div>

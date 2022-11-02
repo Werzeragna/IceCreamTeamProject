@@ -1,0 +1,6 @@
+import "./js/header-modal"
+import "./js/about-modal"
+import "./js/location-modal"
+import "./js/franchise-modal"
+import "./js/burger_menu"
+import "./js/products-modal"

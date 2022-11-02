@@ -1,0 +1,55 @@
+<div class="backdrop is-hidden" data-header-modal>
+  <div class="modal header-modal" >
+    <p class="header-modal__title modal__title">Buy now</p>
+    <ul class="header-modal__list">
+      <li class="header-modal__item header-modal__item--ice-cream">
+        <div class="header-modal__icon header-modal__icon--ice-cream"></div>
+
+        <p class="header-modal__subtitle">ice cream</p>
+      </li>
+      <li class="header-modal__item header-modal__item--ice-coffee">
+        <div class="header-modal__icon header-modal__icon--ice-coffee"></div>
+
+        <p class="header-modal__subtitle">ice coffee</p>
+      </li>
+      <li class="header-modal__item header-modal__item--milkshakes">
+        <div class="header-modal__icon header-modal__icon--milkshakes"></div>
+
+        <p class="header-modal__subtitle">milkshake</p>
+      </li>
+    </ul>
+
+    <form class="feedback">
+      <label class="feedback__item header-form__item">
+        <input
+          type="text"
+          name="feedback-username"
+          class="feedback__input"
+          placeholder="Name"
+        />
+      </label>
+      <label class="feedback__item header-form__item">
+        <input
+          class="feedback__input"
+          type="tel"
+          name="feedback-tel"
+          placeholder="Phone"
+        />
+      </label>
+      <label class="feedback__item header-form__item">
+        <textarea
+          class="feedback__textarea"
+          name="comments"
+          rows="10"
+          placeholder="Comment"
+        ></textarea>
+      </label>
+    </form>
+    <button class="header-modal__button modal__button button" type="submit">Submit</button>
+    <button class="modal__close-button" type="button" data-header-modal-close>
+    <svg width="16" height="16">
+      <use class="modal__close-icon"  href="/src/images/icons.svg#icon-close"></use>
+    </svg>
+  </button>
+  </div>
+</div>
